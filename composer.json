@@ -1,0 +1,29 @@
+{
+    "name": "jooplaan/wp-find-unused-plugins",
+    "description": "Find unused plugins on a multisite network.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/jooplaan/wp-find-unused-plugins",
+    "version": "1.0",
+    "license": "MIT",
+    "require": {
+        "wp-cli/wp-cli": "^2"
+    },
+    "require-dev": {
+        "wp-cli/wp-cli-tests": "^3.0.11"
+    },
+    "authors": [
+        {
+                "name": "Joop Laan",
+                "email": "joop@perky.design",
+                "homepage": "https://jooplaan.com"
+            }
+        ],
+    "require": {
+        "php": ">=5.3.29"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "wp-find-unused-plugins.php" ]
+    }
+}
